@@ -1,0 +1,11 @@
+<svg width="20" height="20" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="20" cy="20" r="18" stroke="url(#langGradient)" stroke-width="3" />
+  <path d="M13 25L20 15L27 25" stroke="#FFBC5E" stroke-width="2" stroke-linecap="round" />
+  <path d="M17 20H23" stroke="#FFBC5E" stroke-width="2" stroke-linecap="round" />
+  <defs>
+    <linearGradient id="langGradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E" />
+      <stop offset="100%" stop-color="#FFBC5E" />
+    </linearGradient>
+  </defs>
+</svg>
