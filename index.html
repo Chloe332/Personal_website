@@ -1643,66 +1643,57 @@
       <!--
         - #CONTACT
       -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+</head>
+<body>
 
-      <article class="contact" data-page="contact">
+  <main>
+    <article class="contact" data-page="contact">
+      <header>
+        <h2 class="h2 article-title">Contact</h2>
+      </header>
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
+      <section class="mapbox" data-mapbox>
         <figure>
           <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242210.00450235713!2d-77.1197545!3d38.9072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b1b327a935ff%3A0x3d882cc4e37f25f8!2sWashington%2C%20D.C.%2C%20USA!5e0!3m2!1sen!2sus!4v1676778015401!5m2!1sen!2sus"
-          width="600" height="450" loading="lazy"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242210.00450235713!2d-77.1197545!3d38.9072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b1b327a935ff%3A0x3d882cc4e37f25f8!2sWashington%2C%20D.C.%2C%20USA!5e0!3m2!1sen!2sus!4v1676778015401!5m2!1sen!2sus"
+            width="600" height="450" loading="lazy"></iframe>
         </figure>
       </section>
 
+      <section class="contact-form">
+        <h3 class="h3 form-title">Contact Form</h3>
 
-        <section class="contact-form">
-      
-          <h3 class="h3 form-title">Contact Form</h3>
-      
-          <form action="mailto:challaert1@gmail.com" method="post" enctype="text/plain" class="form" data-form>
-      
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-      
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-      
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-      
-            <button class="form-btn" type="submit">
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-      
-          </form>
-      
-        </section>
-      </article>
-      
-    </div>
+        <!-- Updated Form Action with Formspree -->
+        <form action="https://formspree.io/f/your-email-id" method="POST" enctype="multipart/form-data" class="form">
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          </div>
 
+          <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+          <button class="form-btn" type="submit">
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
+        </form>
+      </section>
+    </article>
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
+  <!-- Custom JS Link -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+  <!-- Ionicons Link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
